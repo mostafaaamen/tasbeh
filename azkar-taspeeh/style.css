@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+height: 100vh;
+display: flex;
+}
+.conainer{
+    margin: auto;
+    background-color: aqua;
+    width: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;
+  
+}
+h3{
+    text-align: center;
+    margin-bottom: 7px;
+    font-size: 30px;
+}
+.da-va{
+    display: flex;
+    justify-content:space-between ;
+    margin-bottom: 10px;
+}
+#tas-val{
+    font-size: 30px;
+    margin-right: 30px;
+}
+#count{
+    font-size: 30px;
+    margin-left: 30px;
+    background-color: rgb(127, 16, 16);
+    padding: 1px 7px;
+    border-radius: 4px;
+    color: beige;
+}
+.btn{
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+}
+.btn button{
+    width: 50%;
+    font-size: 25px;
+    border: none;
+
+}
+#btn{
+    background-color: rgba(0, 128, 0, 0.772);
+    border-radius: 8px 0 0 8px;
+}
+#btnNum{
+    background-color: rgba(0, 0, 255, 0.641);
+        border-radius:  0 8px 8px 0 ;
+
+}
